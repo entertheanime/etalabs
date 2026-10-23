@@ -1,4 +1,4 @@
-# EtaSwap (public review)
+# etalabs
 
 Person-to-person NFT trades on Monad. Live app: [etalabs.xyz](https://etalabs.xyz) — switch the network to Monad.
 
@@ -8,7 +8,7 @@ This repo is a **review snapshot** for Chogathon. It is not the production deplo
 
 - Trade UI (in-wallet and escrow)
 - MON and $CHOG on either side of a Monad offer
-- Solidity for EtaSwap V9 and Escrow V1
+- Solidity for the in-wallet and escrow programs
 - Free-trade copy: Chog on Monad, eta on every chain
 
 ## What is not here
