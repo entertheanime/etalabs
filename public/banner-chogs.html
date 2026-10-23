@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>eta trading chogs</title>
+    <style>
+      html, body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        background: #000;
+        overflow: hidden;
+      }
+      .frame {
+        width: 1920px;
+        height: 1080px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 56px;
+        background: #000;
+      }
+      .copy {
+        text-align: center;
+        font-family: Arial Black, Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        letter-spacing: -0.03em;
+        line-height: 0.92;
+        color: #fff;
+      }
+      .line {
+        font-size: 86px;
+        white-space: nowrap;
+      }
+      .accent { color: #ff2a2a; }
+      .url {
+        margin-top: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: 0;
+        color: #8a8a8a;
+      }
+      .board {
+        width: 560px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+      .card {
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 28px;
+        background: #141416;
+        padding: 18px 20px 16px;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #f5f5f7;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+      .muted { color: #8e8e93; }
+      .faces {
+        margin-top: 12px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+      .faces img {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: 14px;
+        background: #2a2a2e;
+      }
+      .swap {
+        width: 28px;
+        height: 28px;
+        color: #8e8e93;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="copy">
+        <div class="line">TRADE NFTs LIKE</div>
+        <div class="line">YOU TRADE <span class="accent">SKINS.</span></div>
+        <div class="url">etalabs.xyz</div>
+      </div>
+      <div class="board">
+        <div class="card">
+          <div class="row"><span>You offer</span><span class="muted">4 items</span></div>
+          <div class="faces">
+            <img src="/images/eta-preview/azure.png" alt="" />
+            <img src="/images/eta-preview/racer.png" alt="" />
+            <img src="/images/eta-preview/fire.png" alt="" />
+            <img src="/images/eta-preview/blond.png" alt="" />
+          </div>
+        </div>
+        <svg class="swap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M8 7l4-4 4 4M12 3v18M16 17l-4 4-4-4" />
+        </svg>
+        <div class="card">
+          <div class="row"><span>You receive</span><span class="muted">4 items</span></div>
+          <div class="faces">
+            <img src="/images/chog-preview/chog-1.webp" alt="" />
+            <img src="/images/chog-preview/chog-3.webp" alt="" />
+            <img src="/images/chog-preview/chog-5.webp" alt="" />
+            <img src="/images/chog-preview/chog-7.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

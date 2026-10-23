@@ -1,0 +1,87 @@
+node_modules
+
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env.local.backup
+.tmp/
+
+# API Keys and Secrets
+config/secrets.js
+config/api-keys.js
+secrets/
+*.key
+*.pem
+
+# Next.js
+.next/
+out/
+.swc/
+
+# Build outputs
+dist/
+build/
+artifacts/
+cache/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Runtime data
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test directories
+test-component/
+.vercel
+
+.vercel
+
+.env*
+!.env.example
+app/api/
+app/admin/
+scripts/
